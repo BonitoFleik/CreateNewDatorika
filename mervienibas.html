@@ -12,11 +12,18 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
     <body>
         <a id = "use" href="index.html">Mervienibas HTML ===></a>
         <h4>Informācijas daudzuma mērvienības</h4>
-  
-  <form>
-      <input type = "text" id = "first" placeholder="Amount of MB"> Enter quantity</input>
-  <br>
-  <input type = "button" id = "button" onclick="generate()" value = "Generate">
-  </form>
+  <div class="container">
+    <label for="inputField">Enter Gigabytes:</label>
+    <input type="number" id="inputField" step="any" min="0">
+    <br>
+    <label for="outputField1">Mebibytes:</label>
+    <output id="outputField1"></output>
+    <button onclick="ToMebibytes()">Convert to Mebibytes</button>
+    <br>
+    <label for="outputField2">Megabytes:</label>
+    <output id="outputField2"></output>
+    <button onclick="toMegabytes()">Convert to Megabytes</button>
+  </div>
+        <script src="mervienibas.html.js"></script>
     </body>
 </html>
