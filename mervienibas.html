@@ -9,13 +9,26 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
-        body {font-size: 20px}
-        p {
-  background-image: url('cipari.jpg');
-}
+    body, html { 
+        height: 100%; 
+        margin: 0; 
+        font-family: Arial, sans-serif; 
+    } 
+
+    .background { 
+        position: absolute; 
+        height: 100%; 
+        width: 100%; 
+        background-image: url( 
+  "cipari.jpg"); 
+        background-size: cover; 
+        background-position: center; 
+        filter: blur(10px); 
+        z-index: -1; 
     </style>
     </head>
     <body>
+        <div class="background"></div> 
         <a id = "use" href="index.html">Mervienibas HTML ===></a>
         <h4>Informācijas daudzuma mērvienības</h4>
   <div class="container">
