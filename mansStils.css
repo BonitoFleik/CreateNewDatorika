@@ -3,7 +3,7 @@ h1, h2, h3{
     text-align: center;
 }
 
-body {
+.bg-image{
   background-image: url("https://woc.aises.org/sites/default/files/styles/image730x495/public/Nov2018-Professional-Illo-Photo-BLOGPOST-FNL.jpg?itok=MnHq3bfQ");
 
   filter: blur(8px);
