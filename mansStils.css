@@ -1,0 +1,9 @@
+body{
+    background-image: url('https://woc.aises.org/sites/default/files/styles/image730x495/public/Nov2018-Professional-Illo-Photo-BLOGPOST-FNL.jpg?itok=MnHq3bfQ');
+    background-position: center;  
+    background-size: cover;
+}
+h1, h2, h3{
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
